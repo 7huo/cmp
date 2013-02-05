@@ -1,76 +1,47 @@
-¨q©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤¨r    
-©È  CenFun Music Player v3.0 b081108 (CMP)  ©À
-¨t©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤¨s
-    CMPÊÇÒ»¿îÃâ·ÑµÄÔÚÏßÒôÀÖ²¥·ÅÆ÷£¬²ÉÓÃFlash¿ª·¢¡£
-Ö§³ÖµÄÒôÆµÊÓÆµ¸ñÊ½Ö÷ÒªÓÐMP3,FLV,MP4,²¢¿ÉÒÔÍ¨¹ýÍøÒ³
-JS½Ó¿ÚÊµÏÖWMP(Windows Media Player)ËùÖ§³ÖµÄ¸ñÊ½²¥·Å£¬
-Èçwma,wmv,wav,midµÈ(½öÉùÒô)¡£Ö÷Òª¹¦ÄÜÌØÉ«ÓÐÁÐ±íÊ½²¥
-·Å(×Ô¶¨ÒåÒôÀÖ×¨¼­ºÍÁÐ±í)£¬MP3¿ÉÊÓ»¯Ð§¹û(SoundMixer
-»ìÒôÆ÷)£¬Í¬²½¸è´Ê£¬¸ßÇåÊÓÆµ(h264)£¬×Ô¶¨ÒåÆ¤·ô£¬¼ÓÔØ
-¸÷ÖÖ²å¼þµÈµÈ¡£
+ï»¿====================================================
+CMP4 b120729æ­£å¼ç‰ˆ
+====================================================
 
-×÷Õß£º³¿·ç
-ÓÊÏä£ºcenfun@gmail.com
-ÍøÖ·£ºhttp://bbs.cenfun.com/
-ÈÕÆÚ£º2008.11.8
-×îÐÂ°æ±¾ÒÔ¼°Ïà¹Ø¹¤¾ßÏÂÔØÇë½ø£º
-http://code.google.com/p/cenfunmusicplayer/downloads/list
-----------------------------------------------------
-ÉÏ´«ËµÃ÷£ºÇëÉÏ´«uploadÄ¿Â¼ÖÐµÄÎÄ¼þµ½ÄãµÄ·þÎñÆ÷:
-----------------------------------------------------
-cmp.swf          ²¥·ÅÆ÷Ö÷³ÌÐò
-config.xml       ÅäÖÃÎÄ¼þ
-list.xml         ÁÐ±íÎÄ¼þ
-index.htm        Ê×Ò³
-cmp.js           Flash²åÈë½Å±¾
-crossdomain.xml  ¿çÓò²ßÂÔÎÄ¼þ
-skins            Æ¤·ôÄ¿Â¼
-plugins          ²å¼þÄ¿Â¼
-lrc              ¸è´ÊÄ¿Â¼
-mini.htm         ÃÔÄã²¥·ÅÆ÷ÏµÍ³
-mini             ÃÔÄãÆ¤·ôÄ¿Â¼
-×¢£ºÈç¹ûMP3ÔÚÄãÁíÍâµÄ¿Õ¼ä(²»Í¬Óò)£¬Çë½«crossdomain.xml
-·ÅÔÚMP3ÎÄ¼þËùÔÚÓòµÄ¸ùÄ¿Â¼£¬¼´¿ÉÊµÏÖ¿ÉÊÓ»¯Ð§¹û(²¨ÐÎ)
-----------------------------------------------------
+ä¸€ï¼Œä»‹ç»
 
-ÎÄ¼þTrustFiles.txtÎªÈ¥³ýFlash±¾µØ°²È«ÏÞÖÆ²¹¶¡
-Çë½«Æä¿½±´µ½ÒÔÏÂÄ¿Â¼ÖÐ¼´¿É£º
-C:\WINDOWS\system32\Macromed\Flash\FlashPlayerTrust\
-ÆäÖÐCÎªÏµÍ³ÅÌ£¬Çë¸ù¾ÝÄãµÄÇé¿ö¶ÔºÅÈë×ù
-Èç¹ûFlashPlayerTrust²»´æÔÚ¾ÍÐÂ½¨Ò»¸ö¸ÃÃû³ÆµÄÄ¿Â¼
+CMPæ˜¯ä¸€æ¬¾å…è´¹çš„åœ¨çº¿FlashéŸ³ä¹æ’­æ”¾å™¨ï¼Œè‡´åŠ›äºŽæä¾›æœ€ä½³åœ¨çº¿éŸ³ä¹æ’­æ”¾è§£å†³æ–¹æ¡ˆã€‚æ”¯æŒçš„éŸ³é¢‘è§†é¢‘æ ¼å¼ä¸»è¦æœ‰MP3,FLV,MP4,å¹¶å¯ä»¥é€šè¿‡ç½‘é¡µJSæŽ¥å£å®žçŽ°WMP(Windows Media Player)æ‰€æ”¯æŒçš„æ ¼å¼æ’­æ”¾ï¼Œå¦‚wmaç­‰ã€‚ä¸»è¦åŠŸèƒ½ç‰¹è‰²æœ‰åˆ—è¡¨å¼æ’­æ”¾(è‡ªå®šä¹‰éŸ³ä¹ä¸“è¾‘å’Œåˆ—è¡¨)ï¼ŒMP3å¯è§†åŒ–æ•ˆæžœ(å£°éŸ³é¢‘è°±)ï¼ŒåŒæ­¥æ­Œè¯ï¼ˆé»˜è®¤æ”¯æŒlrcæ­Œè¯ä»¥åŠkmcå¡æ‹‰okæ­Œè¯ï¼‰ï¼Œé«˜æ¸…è§†é¢‘å’Œåœ¨çº¿ç›´æ’­(h264/rtmp)ï¼Œè‡ªå®šä¹‰çš®è‚¤ï¼ŒåŠ è½½å„ç§æ’ä»¶ç­‰ç­‰ï¼ŒCMP4æ”¯æŒapiçš„è°ƒç”¨ï¼Œå¯è®©ç”¨æˆ·å®žçŽ°æ›´å¤šè‡ªå®šä¹‰åŠŸèƒ½ã€‚
 
-¸½£º¿ì½Ý¼ü»ã×Ü
-----------------------------------------------------
-»Ø³µ£º²¥·Åµ±Ç°Ñ¡ÖÐÇúÄ¿
-¿Õ¸ñ£º²¥·ÅÔÝÍ£ÇÐ»»
-·½Ïò¼üÉÏ£ºÉÏÒÆ¶¯ÁÐ±íÏî
-·½Ïò¼üÏÂ£ºÏÂÒÆ¶¯ÁÐ±íÏî
-·½Ïò¼ü×ó£ºÒÆ¶¯µ½·ÖÀàÁÐ±í
-·½Ïò¼üÓÒ£ºÒÆ¶¯µ½ÒôÀÖÁÐ±í
-ctrl+»Ø³µ£ºÊÓÆµ×î´ó»¯ÇÐ»»
-ctrl+·½Ïò¼ü×ó£º¿ìÍË
-ctrl+·½Ïò¼üÓÒ£º¿ì½ø
-ctrl+alt+·½Ïò¼ü×ó£ºÇ°¹öÑ¡Ôñ»ìÒôÐ§¹û
-ctrl+alt+·½Ïò¼üÓÒ£ººó¹öÑ¡Ôñ»ìÒôÐ§¹û
-ctrl+Êý×Ö(0-9)£º¿ìËÙÇÐ»»Æ¤·ôID
-F¼ü£ºÈ«ÆÁÇÐ»»
-D¼ü£º»Ö¸´ÏµÍ³Ä¬ÈÏÆ¤·ô
-R¼ü£ºÖØÔØ»òË¢ÐÂµ±Ç°Æ¤·ô
-O¼ü£º´ò¿ª»ò¹Ø±ÕÑ¡Ïî´°¿Ú
-L¼ü£º´ò¿ª»ò¹Ø±ÕÁÐ±í´°¿Ú
-C¼ü£º´ò¿ª»ò¹Ø±Õ¸è´Ê´°¿Ú
-V¼ü£º´ò¿ª»ò¹Ø±ÕÊÓÆµ´°¿Ú
-P¼ü£º¿ªÆô»ò½ûÓÃËùÓÐ²å¼þ
+äº¤æµè®ºå›ï¼šhttp://bbs.cenfun.com/
 
-----------------------------------------------------
+====================================================
 
-Éý¼¶ËµÃ÷£º
-cmp v3.0²ÉÓÃÈ«ÐÂµÄÏµÍ³¼Ü¹¹£¬²»ÄÜ´Óv2.1°æÖ±½ÓÉý¼¶
-Èç¹ûÎª3.0°æÉý¼¶£¬ÈçÎÞÌØÊâËµÃ÷£¬ÇëÖ±½ÓÌæ»»ÐÂ°æµÄcmp.swfÎÄ¼þ¼´¿É
-¸²¸ÇÇ°ÇëÒ»¶¨×¢Òâ£¬±¸·ÝºÃÒôÀÖÁÐ±íÎÄ¼þºÍÅäÖÃÎÄ¼þµÈ
+äºŒï¼Œå®‰è£…åŒ…è¯´æ˜Žï¼š
 
-×îÐÂ°æ±¾ÏÂÔØºÍÊ¹ÓÃËµÃ÷£¬Çë½øCMP½»Á÷ÂÛÌ³£ºhttp://bbs.cenfun.com/
++--/doc/  CMP4ä½¿ç”¨æ‰‹å†Œ
++--/cmp/  CMPæ‰€éœ€æ–‡ä»¶ã€ä¸Šä¼ æ­¤ç›®å½•åˆ°æœåŠ¡å™¨å³å¯å®Œæˆå®‰è£…ï¼Œå…¨é™æ€ç»¿è‰²æ–‡ä»¶ã€‘
+    |
+    +--/lrc/  æ­Œè¯ç›®å½•
+    +--/music/  æµ‹è¯•éŸ³ä¹ç›®å½•ï¼Œä»…ç”¨äºŽçŽ¯å¢ƒæµ‹è¯•ï¼Œå¯åˆ é™¤
+    +--/plugins/ã€€æ’ä»¶å­˜æ”¾ç›®å½•
+    +--/skins/  çš®è‚¤å­˜æ”¾ç›®å½•
+    ---/cmp.js  CMPä¸“ç”¨æ’å…¥è„šæœ¬
+    ---/cmp.swf  CMPä¸»ç¨‹åºï¼Œé›†æˆé»˜è®¤çš®è‚¤(default.zip)
+    ---/cmpn.swf  CMPè£¸ç‰ˆä¸»ç¨‹åºï¼Œä¸é›†æˆé»˜è®¤çš®è‚¤
+    ---/config.xml  å…¨å±€é…ç½®æ–‡ä»¶ï¼Œå¦‚ä¸é…ç½®urlå‚æ•°ï¼Œå°†é»˜è®¤åŠ è½½æ­¤æ–‡ä»¶ä¸ºé…ç½®
+    ---/crossdomain.xml  flashçš„è·¨åŸŸç­–ç•¥æ–‡ä»¶(å…è®¸æœ¬ç«™èµ„æºè¢«è·¨åŸŸè°ƒç”¨æ—¶ä½¿ç”¨)
+    ---/index.htm  CMPè°ƒç”¨demoä¾‹å­é¡µé¢
+    ---/list.xml  éŸ³ä¹åˆ—è¡¨æ–‡ä»¶ï¼Œå¦‚æžœä¸é…ç½®listså‚æ•°ï¼Œå°†é»˜è®¤åŠ è½½æ­¤æ–‡ä»¶ä¸ºåˆ—è¡¨
+    ---/logo.png  logoå›¾ï¼Œå¯ä¿®æ”¹ä¸ºè‡ªå·±çš„ï¼Œç”¨logoå‚æ•°åŠ è½½åˆ°CMP
 
-¨q©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤¨r    
-©È    COPYRIGHT  2005-2008 CenFun.com     ©À
-¨t©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤¨s
+å…¶ä¸­pluginså’Œskinsç›®å½•ä¸­é™„é€äº†ä¸€äº›å¸¸ç”¨çš„æ’ä»¶å’Œçš®è‚¤ï¼Œæ›´å¤šçš„å¯åŽ»å®˜æ–¹è®ºå›ä¸‹è½½
+
+æ³¨æ„ï¼Œå¦‚æžœæ‰€æœ‰çš®è‚¤éƒ½åŠ è½½é”™è¯¯ï¼Œå¯èƒ½æ˜¯å› ä¸ºç©ºé—´ä¸æ”¯æŒzipæ–‡ä»¶çš„è®¿é—®ï¼Œè¯·å°è¯•å°†çš®è‚¤åŒ…æ–‡ä»¶çš„åŽç¼€zipæ”¹ä¸ºswf
+åŒæ ·ï¼Œå¦‚æžœlrcæ­Œè¯ä¸èƒ½è¯»å–ï¼Œä¹Ÿä¸€æ ·æ˜¯ç©ºé—´æœåŠ¡å™¨åŽç¼€ç±»åž‹è®¾ç½®ä¸å…è®¸çš„é—®é¢˜
+
+====================================================
+
+CMPä¸»ç¨‹åºcmp.swf/cmpn.swfè®¸å¯åè®®ï¼š
+license: CC BY-ND
+http://creativecommons.org/licenses/by-nd/3.0/deed.zh
+
+ä½œè€…: æ™¨é£Ž (QQ:44023478)
+email: cenfun@gmail.com
+
+====================================================
+Copyright (c) 2005-2012 CenFun.Com
+====================================================
