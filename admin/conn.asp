@@ -16,11 +16,11 @@ Dim Rs,sql,i,jc,jcs
 Startime = Timer()
 '数据库路径
 MyDbPath = ""
-Db = "data/#cfplay_data_2006.mdb"
+Db = "data/#cmp.mdb"
 SqlNowString = "Now()"
 SystemTime=Now()
 '站点cookies唯一标识
-Const CookieName="cenfun_cfplay"
+Const CookieName="cenfun_cmp"
 '数据连接
 Sub ConnectionDatabase
 	Dim ConnStr

@@ -23,7 +23,7 @@ sub savepass()
 	PassWord1=md5(request("password1"),16)
 	ip=UserTrueIP
 	set rs=conn.Execute("select * from cfadmin where password='"&PassWord&"'")
-	if rs.eof then
+	if rs.eof and rs.bof then
 		rs.close
 		set rs=nothing
 		Errmsg=Errmsg&"<li>原密码不正确,修改失败！"

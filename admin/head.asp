@@ -132,7 +132,7 @@ Sub footer()
 %>
 <table width="75%" border="0" align="center" cellpadding="2" cellspacing="1" >
   <tr align="center">
-    <td class="copyright"><a href="http://www.cenfun.com/cfplay/" target="_blank" class="copyright">CenFun Music Player</a>, Copyright (c) 2005-2006 <a href="http://www.cenfun.com/" target="_blank"><font color="#708796"><b>CenFun</b></font></a>. All Rights Reserved . </td>
+    <td class="copyright"><a href="http://www.cenfun.com/cmp/" target="_blank" class="copyright">CenFun Music Player</a>, Copyright (c) 2005-2006 <a href="http://www.cenfun.com/" target="_blank"><font color="#708796"><b>CenFun</b></font></a>. All Rights Reserved . </td>
   </tr>
 </table>
 </body>
@@ -257,7 +257,7 @@ If Session(CookieName & "_flag")<>"" then
 <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0" id="TableTitleLink">
   <tr>
     <td background="images/top_bg.gif">&nbsp;■ <a href="manage.asp">播放器管理</a> | <a href="user.asp">管理密码修改</a> | <a href="login.asp?action=out">退出</a></td>
-    <td align="right" background="images/top_bg.gif"><a href="http://www.cenfun.com/cfplay/" target="_blank"><img src="images/top_logo.gif" width="46" height="32" border="0" /></a></td>
+    <td align="right" background="images/top_bg.gif"><a href="http://www.cenfun.com/cmp/" target="_blank"><img src="images/top_logo.gif" width="46" height="32" border="0" /></a></td>
   </tr>
 </table>
 <%

@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="gb2312"?>
 <list>
- <music>
-  <name>Mp3音乐测试</name>
-  <url>http://www.cenfun.com/down.asp?id=6&f=.mp3</url>
-  <content>Mp3音乐测试</content>
-  <pic>bg/p3.jpg</pic>
-  <lrc>lrc/Mp3音乐测试.txt</lrc>
-  <scene></scene>
- </music>
- <music>
-  <name>Flv视频测试</name>
-  <url>http://www.cenfun.com/down.asp?id=5</url>
-  <content>Flv视频测试</content>
-  <pic x="0" y="0"></pic>
-  <lrc></lrc>
-  <scene></scene>
- </music>
+<m>
+	<n>Mp3音乐测试</n>
+	<u>http://www.cenfun.com/demo.mp3</u>
+	<c>Mp3音乐测试</c>
+	<p>bg/p3.jpg</p>
+	<l>lrc/Mp3音乐测试.txt</l>
+	<s></s>
+</m>
+<m>
+	<n>歌手 - 歌名</n>
+	<u>http://www.cenfun.com/demo.mp3</u>
+	<c>某某最新专辑</c>
+	<p>bg/p3.jpg</p>
+	<l>lrc/歌手 - 歌名.txt</l>
+	<s>scene/fly1.swf</s>
+</m>
+<m>
+	<n>flv视频测试</n>
+	<u>http://www.cenfun.com/demo.flv</u>
+	<c>某某最新大片</c>
+	<p></p>
+	<l></l>
+	<s></s>
+</m>
 </list>

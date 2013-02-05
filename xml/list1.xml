@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="gb2312"?>
-<list>
- <music>
-  <name>Mp3音乐测试</name>
-  <url>http://www.cenfun.com/down.asp?id=6&f=.mp3</url>
-  <content>Mp3音乐测试</content>
-  <pic>bg/p3.jpg</pic>
-  <lrc>lrc/Mp3音乐测试.txt</lrc>
-  <scene></scene>
- </music>
-</list>
+<?xml version="1.0" encoding="gb2312"?><list><m><n>Flv视频测试</n><u t="0">http://www.xxx.com/demo.flv</u><c>Flv视频测试</c><p></p><l></l><s></s></m></list>
