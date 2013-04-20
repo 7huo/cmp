@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>CMP4 demo</title>
         <style type="text/css">
             html, body { text-align:center; font-size:12px; padding:0; margin:0; font-family:Verdana; }
@@ -30,8 +30,8 @@
             <div class="main_inner">
                 <div class="info">
                     <div id="cmpinfo">loading ...</div>
-                    <p>CMPÊÇÒ»¿îÃâ·ÑµÄÔÚÏßFlashÒôÀÖ²¥·ÅÆ÷£¬ÖÂÁ¦ÓÚÌá¹©×î¼ÑÔÚÏßÒôÀÖ²¥·Å½â¾ö·½°¸¡£Ö§³ÖµÄÒôÆµÊÓÆµ¸ñÊ½Ö÷ÒªÓĞMP3,FLV,MP4,²¢¿ÉÒÔÍ¨¹ıÍøÒ³JS½Ó¿ÚÊµÏÖWMP(Windows Media Player)ËùÖ§³ÖµÄ¸ñÊ½²¥·Å£¬ÈçwmaµÈ¡£Ö÷Òª¹¦ÄÜÌØÉ«ÓĞÁĞ±íÊ½²¥·Å(×Ô¶¨ÒåÒôÀÖ×¨¼­ºÍÁĞ±í)£¬MP3¿ÉÊÓ»¯Ğ§¹û(ÉùÒôÆµÆ×)£¬Í¬²½¸è´Ê£¨Ä¬ÈÏÖ§³Ölrc¸è´ÊÒÔ¼°kmc¿¨À­ok¸è´Ê£©£¬¸ßÇåÊÓÆµºÍÔÚÏßÖ±²¥(h264/rtmp)£¬×Ô¶¨ÒåÆ¤·ô£¬¼ÓÔØ¸÷ÖÖ²å¼şµÈµÈ£¬CMP4Ö§³ÖapiµÄµ÷ÓÃ£¬¿ÉÈÃÓÃ»§ÊµÏÖ¸ü¶à×Ô¶¨Òå¹¦ÄÜ¡£</p>
-                    <p>½»Á÷ÂÛÌ³£º<a href="http://bbs.cenfun.com/" target="_blank">http://bbs.cenfun.com/</a></p>
+                    <p>CMPæ˜¯ä¸€æ¬¾å…è´¹çš„åœ¨çº¿FlashéŸ³ä¹æ’­æ”¾å™¨ï¼Œè‡´åŠ›äºæä¾›æœ€ä½³åœ¨çº¿éŸ³ä¹æ’­æ”¾è§£å†³æ–¹æ¡ˆã€‚æ”¯æŒçš„éŸ³é¢‘è§†é¢‘æ ¼å¼ä¸»è¦æœ‰MP3,FLV,MP4,å¹¶å¯ä»¥é€šè¿‡ç½‘é¡µJSæ¥å£å®ç°WMP(Windows Media Player)æ‰€æ”¯æŒçš„æ ¼å¼æ’­æ”¾ï¼Œå¦‚wmaç­‰ã€‚ä¸»è¦åŠŸèƒ½ç‰¹è‰²æœ‰åˆ—è¡¨å¼æ’­æ”¾(è‡ªå®šä¹‰éŸ³ä¹ä¸“è¾‘å’Œåˆ—è¡¨)ï¼ŒMP3å¯è§†åŒ–æ•ˆæœ(å£°éŸ³é¢‘è°±)ï¼ŒåŒæ­¥æ­Œè¯ï¼ˆé»˜è®¤æ”¯æŒlrcæ­Œè¯ä»¥åŠkmcå¡æ‹‰okæ­Œè¯ï¼‰ï¼Œé«˜æ¸…è§†é¢‘å’Œåœ¨çº¿ç›´æ’­(h264/rtmp)ï¼Œè‡ªå®šä¹‰çš®è‚¤ï¼ŒåŠ è½½å„ç§æ’ä»¶ç­‰ç­‰ï¼ŒCMP4æ”¯æŒapiçš„è°ƒç”¨ï¼Œå¯è®©ç”¨æˆ·å®ç°æ›´å¤šè‡ªå®šä¹‰åŠŸèƒ½ã€‚</p>
+                    <p>äº¤æµè®ºå›ï¼š<a href="http://bbs.cenfun.com/" target="_blank">http://bbs.cenfun.com/</a></p>
                 </div>
             </div>
         </div>
@@ -44,9 +44,9 @@
                     var config = cmpo.config();
                     document.title = config.name;
                     var arr = [];
-                    arr.push('<b>CMP name:</b> <a href="' + config.link + '" target="_blank">' + ¡¡config.name + '</a>');
-                    arr.push('<b>CMP version:</b> ' + ¡¡config.version);
-                    arr.push('<b>flash version:</b> ' + ¡¡config.flash_version);
+                    arr.push('<b>CMP name:</b> <a href="' + config.link + '" target="_blank">' + ã€€config.name + '</a>');
+                    arr.push('<b>CMP version:</b> ' + ã€€config.version);
+                    arr.push('<b>flash version:</b> ' + ã€€config.flash_version);
                     var cmpinfo = arr.join("<br />");
                     document.getElementById("cmpinfo").innerHTML = cmpinfo;
                 }
@@ -55,7 +55,7 @@
                 api: "cmp_loaded"
             };
             //id, width, height, swf_url, flashvars, params, attrs
-            var htm = CMP.create("cmp", "100%", "100%", "cmp.swf", flashvars);
+            var htm = CMP.create("cmp", "100%", "100%", "cmpn.swf", flashvars);
             document.getElementById("player").innerHTML = htm;
         </script>
         <div class="foot">
