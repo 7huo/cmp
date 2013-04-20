@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>CMP4 demo</title>
         <style type="text/css">
             html, body { text-align:center; font-size:12px; padding:0; margin:0; font-family:Verdana; }
@@ -55,7 +55,7 @@
                 api: "cmp_loaded"
             };
             //id, width, height, swf_url, flashvars, params, attrs
-            var htm = CMP.create("cmp", "100%", "100%", "cmp.swf", flashvars);
+            var htm = CMP.create("cmp", "100%", "100%", "cmpn.swf?url=config.zip%3f2013.4.6", flashvars);
             document.getElementById("player").innerHTML = htm;
         </script>
         <div class="foot">

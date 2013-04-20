@@ -16,6 +16,7 @@ CMP音乐列表文件
     <m type="" src="music/test.mp3" lrc="lrc/kmc.xml" label="kmc卡拉OK歌词" />
     <m type="" src="music/test.mp3" lrc="lrc/text.htm" label="文本歌词(支持简单html)" />
   </m>
+  <m list_src="lists/list.zip" label="加载子列表" />
   <m list_src="list.xml" label="子列表" />
   <m label="目录">
     <m label="二级目录">
